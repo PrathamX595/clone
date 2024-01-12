@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #e3e6e6;
 }
 
 a{
@@ -24,6 +25,9 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 20;
 
 }
 
@@ -32,7 +36,7 @@ a{
     padding: 1px 8px 0px 6px;
     height: 49px;
     width: 175px;
-    background-image: url("logo.png");
+    background-image: url("resources/logo.png");
     background-size: cover;
 }
 
@@ -44,7 +48,7 @@ a{
     height: 20px;
     width: 30px;
     background-color: #FF9B00;
-    background-image: url("mag.svg");
+    background-image: url("resources/mag.svg");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
@@ -91,7 +95,28 @@ select{
     color: #0f1111;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
     text-align: justify;
+    background-color: white;
     z-index: 1;
+}
+.onlyProds{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.titleHolder{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.title{
+    position: relative;
+    left: 0px;
+}
+
+.prod{
+    height: 135px;
+    width: 150px;
+    margin-left: 10px;
 }
