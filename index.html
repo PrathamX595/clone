@@ -8,39 +8,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="navbar">
-        <div class="homePage"> <a href="#" id="home"></a> </div>
+    <header class="move">
+        <div class="navbar">
+            <div class="homePage"> 
+                <a href="#" id="home"></a> 
+            </div>
 
-        <div class="location"> <a href="#" id="place"> 
-            <div id="smlText">Deliver to Location, PinCode</div>  
-            <div id="lrgText">Update Location</div> </a> </div>
+            <div class="location"> <a href="#" id="place"> 
+                <div id="smlText">Deliver to Location, PinCode</div>  
+                <div id="lrgText">Update Location</div> </a> 
+            </div>
 
-        <div class="searchBar">
-                        
-            <input type="text" id="input" placeholder="Search Amazon.in"> 
-            <button id="search"></button>
-            
+            <div class="searchBar">    
+                <input type="text" id="input" placeholder="Search Amazon.in"> 
+                <button id="search"></button>
+            </div>
+
+            <div class="language"> 
+                <select name="lang" aria-placeholder="Lang">
+                <option value="1">Hindi</option>
+                <option value="2">Eng</option>
+                <option value="3">Urdu</option>
+                </select> 
+            </div>
+
+            <div class="account"> 
+                <a href="#" id="acc">
+                <div id="smlText">Hello, User</div>
+                <div id="lrgText">Account & Lists</div>
+                </a> 
+            </div>
+
+            <div class="returns"> 
+                <a href="#" id="return">
+                <div id="smlText">Returns</div>
+                <div id="lrgText">& Orders</div>
+                </a> 
+            </div>
+
+            <div class="cart"> 
+                <a href="#" id="bag">
+                    <p>Cart</p>
+                </a> 
+            </div>
         </div>
-
         
-
-        <div class="language"> <select name="lang" aria-placeholder="Lang">
-            <option value="1">Hindi</option>
-            <option value="2">Eng</option>
-            <option value="3">Urdu</option>
-        </select> </div>
-
-        <div class="account"> <a href="#" id="acc">
-            <div id="smlText">Hello, User</div>
-            <div id="lrgText">Account & Lists</div>
-        </a> </div>
-
-        <div class="returns"> <a href="#" id="return">
-            <div id="smlText">Returns</div>
-            <div id="lrgText">& Orders</div>
-        </a> </div>
-
-        <div class="cart"> <a href="#" id="bag"><p>Cart</p></a> </div>   
+        <div class="accessBar">
+            <div class="accessories" id="all"><a href="#"><p id="lrgText1">All</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Today's Deals</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Buy Again</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Customer Service</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Gift Cards</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Registry</p></a></div>
+            <div class="accessories"><a href="#"><p id="smlText1">Sell</p></a></div>
+        </div>
     </header>
     <main>
         <div class="background"><a href="#"><img src="resources/bgimg.jpg" alt="bg" class="bg"></a></div>
