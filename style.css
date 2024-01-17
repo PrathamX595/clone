@@ -75,7 +75,7 @@ select{
     border-color: #FF9B00;
 }
 
-.accessBar{
+.accessBar, .btt{
     width: 100%;
     height: 40px; 
     background-color: #232F3E;
@@ -171,4 +171,61 @@ select{
 .location:hover, .homePage:hover, .cart:hover, .account:hover, .returns:hover, .accessories:hover{
     border: 1px solid white;
     border-radius: 2px;
+}
+main{
+    height: 1240px;
+}
+.credNLink{
+    height: 1000px;
+}
+.btt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #37475A;
+    font-size: small;
+}
+.btt:hover{
+    background-color: #566D87;
+}
+.additionals{
+    height: 550px;
+    background-color: #232f3e;
+    display: flex;
+}
+.positioner{
+    position: relative;
+    left: 19%;
+    display: flex;
+}
+.subtext{
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:white;
+    margin-top: 40px;
+}
+div p.inText{
+    margin: 8px 0px 8px 0px;
+}
+#MMU{
+    flex-wrap: wrap;
+    width: 160px;
+}
+#Help{
+    flex-wrap: wrap;
+    width: 130px;
+}
+.links{
+    color: #c4d2d4;
+}
+.links:hover{
+    text-decoration: solid underline #c4d2d4;
+}
+hr{
+    color: white;
+    position: relative;
+    top: -145px;
 }
