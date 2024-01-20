@@ -46,30 +46,40 @@ a{
     background-size: cover;
 }
 
-#search{
-    height: 20px;
-    width: 30px;
-    background-color: #FF9B00;
-    background-image: url("resources/mag.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 0;
-    position: relative;
-    top: 5px;
-    left: 0px;
-    margin: 0;
-    border: 0;
+.btn-search{
+    width: 45px;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-select{
+    width: 45px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    height: 100%;
+    background-color: #F3F3F3;
 }
 
 #input{
-    height: 20px;
-    width: 500px;
-    padding: 0;
-    border: 0;
-    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
 }
 
-select{
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-lang{
     background-color: #131921;
     color: #FFFFFF;
     border-color: #FF9B00;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon
     </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,13 +20,16 @@
                 <div id="lrgText">Update Location</div> </a> 
             </div>
 
-            <div class="searchBar">    
-                <input type="text" id="input" placeholder="Search Amazon.in"> 
-                <button id="search"></button>
+            <div class="searchBar">
+                <select class="nav-select"><option>All</option></select>
+                <input type="text" id="input" placeholder="Search Amazon"> 
+                <div class="btn-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
             </div>
 
             <div class="language"> 
-                <select name="lang" aria-placeholder="Lang">
+                <select class="nav-lang">
                 <option value="1">Hindi</option>
                 <option value="2">Eng</option>
                 <option value="3">Urdu</option>
